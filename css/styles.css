@@ -58,6 +58,7 @@ a.nav-link {
   margin-right: 0;
   margin-left: 0;
   background: transparent;
+  
 }
 .main-body {
   width: 100%;
@@ -67,10 +68,10 @@ a.nav-link {
   color:goldenrod;
 }
 .h1-naslov {
-  font-size: 2.5rem;
+  font-size: 40px;
   text-align: center;
   color: goldenrod;
-  margin: 24px 0;
+  margin: 16px 0;
 }
 .h2-naslov {
   text-align: center;
@@ -78,7 +79,7 @@ a.nav-link {
   margin: 18px 0;
 }
 .hp-img {
-  max-width: 75%;
+  width: 30%;
 }
 .col-sm-6.col-md-6.col-lg-3 p {
   color: goldenrod;
@@ -110,13 +111,29 @@ a.nav-link {
   text-align: center;
 }
 .col-sm-6.col-md-6.col-lg-6 {
-  margin-top: 24px;
   color: goldenrod;
-  margin-top: 36px;
+  font-size: 18px;
+  margin-top: 24px;
   text-align: center;
+  align-self: center;
 } 
 .col-sm-6.col-md-6.col-lg-6 img {
-  max-width: 55%;
+  max-width: 65%;
+  border: 4px solid goldenrod;
+}
+.main-sb img {
+  max-width: 75%;
+  margin-top: 24px;
+  border: 4px solid red;
+}
+.main-gt img {
+  max-width: 75%;
+  margin-top: 24px;
+  border: 4px solid red;
+}
+.col-sm-6.col-md-6.col-lg-6.about img {
+  max-width: 65%;
+  border: 4px solid red;
 }
 @media only screen and (max-width: 1200px) {
   
@@ -135,22 +152,27 @@ a.nav-link {
 }
 @media only screen and (max-width: 600px) {
   .container-fluid {
-    margin-top: 15%;
+    /* margin-top: 5%; */
   }
   .hp-img {
-    max-width: 100%;
+    max-width: 70%;
   }
   .h1-naslov {
     font-size: 2.5rem;
     text-align: center;
     color: goldenrod;
-    margin: 36px 0;
+    /* margin: 36px 0; */
   }
   .h2-naslov {
     text-align: center;
     color: goldenrod;
-    margin: 24px 0;
+    /* margin: 24px 0; */
   }  
+  .main-gt img {
+    max-width: 100%;
+    margin-top: 24px;
+    border: 4px solid red;
+  }
 }
 
 
@@ -174,6 +196,20 @@ a.nav-link {
 .all-other-bg {
   background-color: #000;
   background-image: url(../images/Bckg/all_other_bg.jpg);
+  background-attachment: fixed;
+  z-index: -50;
+  background-size: cover;
+}
+.shinebright-bg {
+  background-color: #000;
+  background-image: url(../images/Bckg/shine_bright_bckground.jpg);
+  background-attachment: fixed;
+  z-index: -50;
+  background-size: cover;
+}
+.goldentouch-bg {
+  background-color: #000;
+  background-image: url(../images/Bckg/golden_touch_bckg.jpg);
   background-attachment: fixed;
   z-index: -50;
   background-size: cover;
