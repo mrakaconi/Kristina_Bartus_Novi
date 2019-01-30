@@ -39,6 +39,13 @@ a.nav-link {
 }
 .navbar-dark .navbar-nav .nav-link {
   color: goldenrod;
+  font-weight: 700;
+
+}
+.navbar-dark.black-font .navbar-nav .nav-link {
+  color: black;
+  font-weight: 700;
+  text-shadow: 1px 1px lightsteelblue;
 }
 .dropdown-item {
   color: goldenrod;
@@ -58,7 +65,6 @@ a.nav-link {
   margin-right: 0;
   margin-left: 0;
   background: transparent;
-  
 }
 .main-body {
   width: 100%;
@@ -78,8 +84,11 @@ a.nav-link {
   color: goldenrod;
   margin: 18px 0;
 }
-.hp-img {
-  width: 30%;
+.hp-img1 {
+  width: 85%;
+}
+.hp-img2 {
+  display: none;
 }
 .col-sm-6.col-md-6.col-lg-3 p {
   color: goldenrod;
@@ -87,6 +96,7 @@ a.nav-link {
 }
 .col-sm-6.col-md-6.col-lg-3 {
   margin-bottom: 15px;
+  align-self: center;
 }
 .col-sm-6.col-md-6.col-lg-3 img {
   max-width: 80%;
@@ -124,16 +134,16 @@ a.nav-link {
 .main-sb img {
   max-width: 75%;
   margin-top: 24px;
-  border: 4px solid red;
+  border: 4px solid golenrod;
 }
 .main-gt img {
   max-width: 75%;
   margin-top: 24px;
-  border: 4px solid red;
+  border: 4px solid goldenrod;
 }
 .col-sm-6.col-md-6.col-lg-6.about img {
   max-width: 65%;
-  border: 4px solid red;
+  border: 4px solid goldenrod;
 }
 @media only screen and (max-width: 1200px) {
   
@@ -151,11 +161,12 @@ a.nav-link {
   
 }
 @media only screen and (max-width: 600px) {
-  .container-fluid {
-    /* margin-top: 5%; */
+  .hp-img1 {
+  display: none;
   }
-  .hp-img {
-    max-width: 70%;
+  .hp-img2 {
+  display: inline-flex;
+  width: 60%;
   }
   .h1-naslov {
     font-size: 2.5rem;
