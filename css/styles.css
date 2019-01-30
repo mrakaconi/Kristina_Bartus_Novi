@@ -145,6 +145,43 @@ a.nav-link {
   max-width: 65%;
   border: 4px solid goldenrod;
 }
+.contact {
+  color: goldenrod;
+  justify-content: center;
+  margin: 20px 0;
+  font-size: 20px;
+}
+.contact i {
+  font-size: 130%;
+}
+.contact h2 {
+  font-size: 40px;
+}
+.contact p {
+  font-size: 14px;
+  margin-top: 2%;
+  text-align: center;
+  height: auto;
+  margin-top: 50px;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: transparent;
+  color: darkslategrey;
+  text-align: right;
+  font-size: 14px;
+}
+.row.embed-responsive.embed-responsive-21by9 {
+  align-content: center;
+  margin: 20px 0;
+  justify-content: center;
+}
+
+
+
 @media only screen and (max-width: 1200px) {
   
 }
